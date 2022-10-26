@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(image/laptop.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.heading-1 {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+  border-radius: 3px 3px 0 0;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+.heading-1__sus {
+  background-color: green;
+}
+
+.heading-2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.search {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  padding: 2rem;
+}
+.search__input {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  outline: none;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.search__black {
+  background-color: #000;
+  color: #fff;
+}
+.search__green {
+  background-color: green;
+  color: #fff;
+}
+.search__yellow {
+  background-color: yellow;
+}
+.search__div {
+  margin-bottom: 1.5rem;
+}
+.search__svg {
+  fill: #fff;
+  transform: translateX(70%);
+  width: 30rem;
+  height: 30rem;
+}
+
+button {
+  width: 100%;
+  padding: 1rem 0;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1.2rem;
+}
+
+.login__h1 {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+  border-radius: 3px 3px 0 0;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+.login__form {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  padding: 2rem;
+}
+.login__h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.login__input {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  outline: none;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.login__div {
+  margin-bottom: 1.5rem;
+}
+.login__pass {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 1.2rem;
+  font-size: 1.5rem;
+}
+.login__pass:hover {
+  text-decoration: underline;
+}
