@@ -171,7 +171,8 @@
     color: red;
   }
   .nav__image {
-    height: 5.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
     border-radius: 50%;
   }
   
@@ -217,7 +218,7 @@
     position: absolute;
     top: 0.3rem;
     right: 1rem;
-    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.9);
+    
     transition: all 0.2s;
   }
   .aboutme__sub:hover {
@@ -226,7 +227,7 @@
   }
   .aboutme__sub:active {
     transform: translateY(0.1rem);
-    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.9);
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 1);
   }
   
   .contact {
